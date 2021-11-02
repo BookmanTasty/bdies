@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@300;400;600&display=swap");
+@import "~bootstrap/scss/bootstrap";
+
+
+$fondos: #1b262c;
+$letras: #3282b8;
+$links: #bbe1fa;
+$logo: #e1eef7;
+$activo: #0f4c75;
+$rellenoactivo: #e1eef793;
+
+
+
+.content{
+    background-color: $fondos;
+}
+
+.flex {
+    display: flex;
+    background-color: $fondos
+}
+
+.logo {
+    padding: 1rem 1rem 0rem 1rem;
+    display: flex;
+    width: 14rem;
+    p {
+        margin-bottom: 0px;
+        color: $logo;
+    }
+    h4 {
+        color: $logo;
+    }
+    a {
+        text-decoration: none;
+        color: $logo;
+    }
+}
+.menu {
+    font-family: "Hepta Slab", serif;
+    background-color: $fondos;
+    width: 14rem;
+
+    
+    ul {
+        list-style: none;
+        padding: 1rem 2rem;
+        
+        li {
+            a {
+                text-decoration: none;
+                color: $links;
+                &.active {
+                    animation: color-change 4s infinite;
+                }
+
+                @keyframes color-change {
+                    0% {
+                        color: $links;
+                    }
+                    50% {
+                        color: $activo;
+                    }
+                    100% {
+                        color: $links;
+                    }
+                }
+            }
+            h5 {
+                margin-top: 1rem;
+                color: $letras;
+            }
+        }
+    }
+}
+
+.fpaginas{
+    
+    font-family: "Hepta Slab", serif;
+    width: 100%;
+    margin-top: 5vh;
+    
+    p{
+        color: $logo;
+    }
+
+    hr{
+        color: $logo;
+        height: 5;
+    }
+    h1 {
+        color: $logo      
+    }
+    h2{
+        color: $logo 
+    }
+    h5{
+        color: $logo;
+        
+        }
+    h6{
+        color: $logo;
+    }
+
+    h3{
+        color: $logo;
+    }
+
+
+}
+
+
+.context {
+    
+    
+    padding-top:5vh;   
+    flex-direction: column;
+
+  
+    
+}
+
+.propes{
+    display: flex;
+    flex-direction: column;
+}
+
+.caracteristicas{
+    margin-top: 10vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.padder{
+    padding: 0 5% 0 5%;
+    margin-top: 10vh;
+}
+
+.padder2{
+
+    padding: 0 10% 0 0;
+    margin-top: 5vh;
+
+}
+
+.flexlibros{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center ;
+}
+
+.flibro{
+    margin: 2rem;
+}
+
+.busqueda{
+    display: flex;
+    flex-direction: row;
+    h5{
+        margin-right: 1rem;
+        cursor: pointer;
+    }
+    a{
+        text-decoration: none;
+    }
+}
+
+.libro{
+    p{
+        margin-bottom: 0px;
+    }
+}
