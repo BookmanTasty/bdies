@@ -159,10 +159,12 @@ $rellenoactivo: #e1eef793;
     flex-direction: row;
     h5{
         margin-right: 1rem;
-        cursor: pointer;
+        cursor: default;
     }
     a{
         text-decoration: none;
+        cursor: pointer;
+        color: $links;
     }
 }
 

@@ -9,7 +9,7 @@
 
   export default function Titulo() {
     const [list, setList] = useState([]);
-    const abcd = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "Ñ", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+    
 
     useEffect(() => {
       axios({
@@ -28,6 +28,9 @@
     return (
 
       <div>
+        <hr />
+        <h3>Libros por Titulo</h3>
+        
         <h3>A</h3>
         <div className="flexlibros">
 

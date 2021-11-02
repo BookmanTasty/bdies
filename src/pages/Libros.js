@@ -13,15 +13,15 @@ const Libros = () => {
             <h1>Libros</h1>
             <hr />
             <div className="busqueda">
-                <Link to="/libros/titulo"> <h5 >Titulo   </h5> </Link>
-                <Link to="/libros/autor"> <h5>Autor   </h5> </Link>
-                <Link to="/libros/categoria"> <h5>Categoria   </h5> </Link>
+
+                <h5 >Ordenar por:</h5>
+                <h5 >  <Link to="/libros/titulo"> Titulo    </Link> </h5>
+                <h5 > <Link to="/libros/autor"> Autor    </Link> </h5>
             </div>
             <Switch>
                 <div>
                     <Route path="/libros/titulo" > <Titulo /> </Route>
                     <Route path="/libros/autor" > <Autor /> </Route>
-                    <Route path="/libros/categoria" > <h1> ordenar por categoria</h1></Route>
                     <Route path="/libros/portada" > <Portada /> </Route>
                     
                 </div>

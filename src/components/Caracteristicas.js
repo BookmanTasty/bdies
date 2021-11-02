@@ -31,7 +31,7 @@ const Caracteristicas = () => {
 
                             <center><img src={freedom} height="200vh" style={{ justifyContent: 'center' }} alt="Freedom" /></center>
                             <h5 style={{ textAlign: 'center' }}>Libre</h5>
-                            <h6 style={{ textAlign: 'center' }}>Los usuarios tienen la libertad de ejecutar, copiar, distribuir, estudiar, modificar y mejorar el software y contenido de la Biblioteca.</h6>
+                            <h6 style={{ textAlign: 'center' }}>Los usuarios tienen la libertad de ejecutar, copiar, distribuir, estudiar, modificar y mejorar el software de la Biblioteca.</h6>
 
                         </Col>
                     </Row>
