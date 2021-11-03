@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import { Route, Switch, Link } from 'react-router-dom';
 import Portada from './libros/Portada';
 import Titulo from './libros/Titulo';
 import Autor from './libros/Autor';

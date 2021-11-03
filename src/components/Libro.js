@@ -39,7 +39,7 @@ export default function Libro(props) {
             <Container className="libro">
                 <Row>
                     <Col sm={4} >
-                        <img src={list.portada} />
+                        <img src={list.portada} alt="portada"/>
 
                     </Col>
                     <Col sm={8}>

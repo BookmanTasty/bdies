@@ -1,6 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
-import Portada from './libros/Portada';
+import {  Route, Switch } from 'react-router-dom';
 import Libro from '../components/Libro';
 
 const Leer = () => {

@@ -1,7 +1,7 @@
 // importamos axios para la lectura de la bdies-api
 import axios from 'axios';
 import React, { useState, useEffect } from "react";
-import _, { map } from 'underscore';
+import _ from 'underscore';
 
 // importamos componente de reuso 
 import Fichalibro from "../../components/Fichalibro";
