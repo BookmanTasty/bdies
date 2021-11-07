@@ -15,6 +15,8 @@ export default function Libro(props) {
     const idlibro = location.pathname.substr(6);
     const urlbase = "http://localhost:5000/libros/"
     const urllibro = urlbase + idlibro;
+    const urlvisitas = "http://localhost:5000/update/";
+    let visitas;
 
     useEffect(() => {
         axios({
@@ -28,6 +30,20 @@ export default function Libro(props) {
             });
     }, [setList]);
 
+    if (list.visitas != null) {
+        visitas = list.visitas + 1;
+        const urlupdate  = urlvisitas + idlibro + "/" + visitas
+        axios.post(urlupdate, {
+          })
+          .then(function (response) {
+            console.log(response);
+          })
+          .catch(function (error) {
+            console.log(error);
+          });
+
+    }
+
     console.log(list.titulo);
 
     return (
@@ -39,11 +55,11 @@ export default function Libro(props) {
             <Container className="libro">
                 <Row>
                     <Col sm={4} >
-                        <img src={list.portada} alt="portada"/>
+                        <img src={list.portada} alt="portada" />
 
                     </Col>
                     <Col sm={8}>
-                        
+
                         <h3>{list.Autor}</h3>
                         <p>{list.nota}</p>
                         <br />
