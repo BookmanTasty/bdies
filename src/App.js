@@ -12,6 +12,8 @@ import Menu from './components/Menu';
 import Introduccion from './pages/Introduccion'
 import Libros from './pages/Libros'
 import Leer from './pages/Leer'
+import Articulos from './pages/Articulos';
+import Acervo from './pages/Acervo';
 
 
 
@@ -25,7 +27,8 @@ function App() {
           <Switch>
             <Route path="/leer" component={Leer} />
             <Route path="/libros" component={Libros} />
-
+            <Route path="/articulos" component={Articulos} />
+            <Route path="/acervo" component={Acervo} />
             <Route path="/" component={Introduccion} />
 
           </Switch>

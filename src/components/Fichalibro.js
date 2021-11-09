@@ -1,11 +1,11 @@
 import { Card, Button } from "react-bootstrap";
-import {Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Fichalibro = (props) => {
     var base = "/leer/";
     var id = props.id;
     var concat = base + id;
-   
+
 
     return (
 
@@ -21,7 +21,11 @@ const Fichalibro = (props) => {
                 <Card.Text>
                     {props.autor}
                 </Card.Text>
+                <Card.Text>
+                    Visitas: {props.visitas}
+                </Card.Text>
             </Card.Body>
+
             <Card.Body>
                 <Link to={concat} > <Button variant="secondary">Leer</Button>{' '}</Link>
                 <Button variant="secondary">❤️</Button>{' '}

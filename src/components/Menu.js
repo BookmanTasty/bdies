@@ -13,10 +13,10 @@ const Menu = () => {
                     <NavLink to="/libros/portada" exact className="" activeClassName="active">Libros</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/leer" exact>Articulos</NavLink>
+                    <NavLink to="/articulos" exact>Articulos</NavLink>
                 </li>
                 <li>
-                    <NavLink to="" exact>Acervo IESJRE</NavLink>
+                    <NavLink to="/acervo" exact>Acervo IESJRE</NavLink>
                 </li>
                 <li>
                     <h5>Libros escolares</h5>

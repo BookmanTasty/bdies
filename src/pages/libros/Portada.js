@@ -36,7 +36,7 @@ export default function Portada() {
       <div className="flexlibros">
 
         {visitas.slice(0, 3).map((item) => (
-          <><Fichalibro id={item._id} portada={item.portada} titulo={item.titulo} autor={item.Autor} /></>
+          <><Fichalibro id={item._id} portada={item.portada} titulo={item.titulo} autor={item.Autor} visitas={item.visitas} /></>
         ))}
 
       </div>
@@ -44,7 +44,7 @@ export default function Portada() {
       <div className="flexlibros">
 
         {favoritos.slice(0, 3).map((item) => (
-          <><Fichalibro id={item._id} portada={item.portada} titulo={item.titulo} autor={item.Autor} /></>
+          <><Fichalibro id={item._id} portada={item.portada} titulo={item.titulo} autor={item.Autor} visitas={item.visitas}/></>
         ))}
 
       </div>
@@ -52,7 +52,7 @@ export default function Portada() {
       <div className="flexlibros">
 
         {list.slice(0, 3).map((item) => (
-          <><Fichalibro id={item._id} portada={item.portada} titulo={item.titulo} autor={item.Autor} /></>
+          <><Fichalibro id={item._id} portada={item.portada} titulo={item.titulo} autor={item.Autor} visitas={item.visitas} /></>
         ))}
 
       </div>

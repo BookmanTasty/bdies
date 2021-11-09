@@ -44,7 +44,6 @@ export default function Libro(props) {
 
     }
 
-    console.log(list.titulo);
 
     return (
 
@@ -65,6 +64,8 @@ export default function Libro(props) {
                         <br />
                         <p>Categoria:{list.categoria}</p>
                         <p>Subcategoria:{list.subcategoria}</p>
+                        <br />
+                        <p>Visitas:{list.visitas}</p>
                         <br />
                         <a href={list.link}> <Button variant="secondary">Descargar</Button></a>
 
