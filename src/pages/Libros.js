@@ -3,6 +3,7 @@ import { Route, Switch, Link } from 'react-router-dom';
 import Portada from './libros/Portada';
 import Titulo from './libros/Titulo';
 import Autor from './libros/Autor';
+import Busquedalibro from './libros/Busquedalibro';
 
 const Libros = () => {
 
@@ -23,6 +24,7 @@ const Libros = () => {
                     <Route path="/libros/titulo" > <Titulo /> </Route>
                     <Route path="/libros/autor" > <Autor /> </Route>
                     <Route path="/libros/portada" > <Portada /> </Route>
+                    <Route path="/libros/busqueda" > <Busquedalibro /> </Route>
                     
                 </div>
             </Switch>
