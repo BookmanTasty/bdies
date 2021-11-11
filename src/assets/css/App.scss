@@ -174,7 +174,19 @@ $rellenoactivo: #e1eef793;
     }
 }
 
-.ais-Hits-list {
+.ais-InfiniteHits-list {
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center ;
+}
+
+.ais-SearchBox{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center ;
+}
+
+.ais-InfiniteHits{
     display: flex;
     flex-wrap:wrap ;
     justify-content: center ;

@@ -16,8 +16,9 @@ const Libros = () => {
             <div className="busqueda">
 
                 <h5 >Ordenar por:</h5>
-                <h5 >  <Link to="/libros/titulo"> Titulo    </Link> </h5>
-                <h5 > <Link to="/libros/autor"> Autor    </Link> </h5>
+                <h5 >  <Link to="/libros/titulo">Titulo</Link> </h5>
+                <h5 > <Link to="/libros/autor">Autor</Link> </h5>
+                <h5 > | <Link to="/libros/busqueda">Buscar</Link> </h5>
             </div>
             <Switch>
                 <div>
