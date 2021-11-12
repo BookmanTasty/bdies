@@ -17,7 +17,12 @@ $rellenoactivo: #e1eef793;
 
 .flex {
     display: flex;
-    background-color: $fondos
+    background-color: $fondos;
+    hr{
+        color: $logo;
+        height: 5;
+    }
+    
 }
 
 .logo {
@@ -190,4 +195,34 @@ $rellenoactivo: #e1eef793;
     display: flex;
     flex-wrap:wrap ;
     justify-content: center ;
+}
+
+.footer{
+    display: block ;
+    justify-content: center ;
+    font-family: "Hepta Slab", serif;
+    width: 100%;
+    padding-top: 2vh;
+    background-color: $fondos;
+
+    h3{
+        color: $letras;
+    }
+
+    p{
+        color: $letras;
+    }
+   
+}
+
+.marcas{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center ;
+    img{
+        margin: 10px;
+    }
+    span{
+        margin-right: 10px;
+    }
 }

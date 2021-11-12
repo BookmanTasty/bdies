@@ -7,6 +7,7 @@ import './assets/css/App.scss';
 
 // importamos componentes
 import Menu from './components/Menu';
+import Footer from './components/Footer';
 
 // importamos las paginas de navegacion
 import Introduccion from './pages/Introduccion'
@@ -34,10 +35,10 @@ function App() {
 
           </Switch>
         </div>
-
-
       </div>
+      <Footer />
     </Router>
+
   );
 }
 
