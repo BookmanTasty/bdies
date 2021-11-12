@@ -32,7 +32,7 @@ export default function Roadmap() {
                                 <center><img src={beta} height="250vh" alt="comienzo" /></center>
                             </div>
                         </Col>
-                        <Col sm={6}><h4>Octubre 2021 </h4>
+                        <Col sm={6}><h4>Noviembre 2021 </h4>
                             <h5>Primera beta del proyecto funcional. </h5>
                             <h5>Incorporación de los libros de texto gratuito. </h5>
                             <h5>Ampliación del grupo de trabajo para el proyecto. </h5>
