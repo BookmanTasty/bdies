@@ -34,6 +34,7 @@ const Footer = () => {
                     <Col sm={6}><h3>Con tecnologia de</h3>
                         <div className="marcas">
                             <img height="68px" src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg" alt="logo node" />
+                            <img width="136px" src="https://d3cy9zhslanhfa.cloudfront.net/media/3800C044-6298-4575-A05D5C6B7623EE37/7655AD50-A734-4FC4-8C5E6EEDB2738368/webimage-401D1AC2-BBC7-467D-8B2485E672FDC93F.png" alt="logo mongo" />
                             <img height="68px" src="https://cdn.worldvectorlogo.com/logos/react-2.svg" alt="logo react" />
                             <img height="68px" src="https://sass-lang.com/assets/img/styleguide/color-1c4aab2b.png" alt="logo sass" />
                             <img width="136px" src="https://axios-http.com/assets/logo.svg" alt="logo axios" />

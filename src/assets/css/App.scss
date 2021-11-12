@@ -85,6 +85,8 @@ $rellenoactivo: #e1eef793;
     width: 100%;
     margin-top: 5vh;
     
+  
+
     p{
         color: $logo;
     }
@@ -110,7 +112,10 @@ $rellenoactivo: #e1eef793;
     h3{
         color: $logo;
     }
-
+    h4{
+        color: $logo;
+        padding: 10px;
+    }
 
 }
 
@@ -224,5 +229,12 @@ $rellenoactivo: #e1eef793;
     }
     span{
         margin-right: 10px;
+    }
+}
+
+.icos{
+    img{
+        padding: 10px;
+        filter: invert(100%);
     }
 }

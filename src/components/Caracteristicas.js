@@ -10,7 +10,7 @@ const Caracteristicas = () => {
                 <h5 >Características</h5>
                 <hr />
             </div>
-            <div className="padder">
+            <div className="padder icos">
                 <Container>
                     <Row>
                         <Col sm={4}>

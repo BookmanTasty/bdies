@@ -37,25 +37,25 @@ const Menu = () => {
                     <h5>Ayuda</h5>
                 </li>
                 <li>
-                    <NavLink to="/rer"exact>¿Como iniciar sesión?</NavLink>
+                    <NavLink to="/ayuda"exact>¿Como iniciar sesión?</NavLink>
                 </li>
                 <li>
-                    <NavLink to=""exact>¿Como aportar al proyecto?</NavLink>
+                    <NavLink to="/ayuda"exact>¿Como aportar al proyecto?</NavLink>
                 </li>
                 <li>
-                    <NavLink to=""exact>¿Con que servicios cuenta la biblioteca?</NavLink>
+                    <NavLink to="/ayuda"exact>¿Con que servicios cuenta la biblioteca?</NavLink>
                 </li>
                 <li>
                     <h5>Acerca de</h5>
                 </li>
                 <li>
-                    <NavLink to="/rer"exact>Biblioteca digtal IESJRE</NavLink>
+                    <NavLink to="/"exact>Biblioteca digtal IESJRE</NavLink>
                 </li>
                 <li>
-                    <NavLink to=""exact>Proyecto descentralizado</NavLink>
+                    <NavLink to="/roadmap"exact>Proyecto descentralizado</NavLink>
                 </li>
                 <li>
-                    <NavLink to=""exact>Colaboradores</NavLink>
+                    <NavLink to="/colaboradores"exact>Colaboradores</NavLink>
                 </li>
             </ul>
         </div>

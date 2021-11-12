@@ -16,6 +16,8 @@ import Leer from './pages/Leer'
 import Articulos from './pages/Articulos';
 import Acervo from './pages/Acervo';
 import Escolares from './pages/Escolares';
+import Ayuda from './pages/Ayuda';
+import Roadmap from './pages/Roadmap';
 
 
 function App() {
@@ -31,6 +33,8 @@ function App() {
             <Route path="/articulos" component={Articulos} />
             <Route path="/acervo" component={Acervo} />
             <Route path="/escolares" component={Escolares} />
+            <Route path="/ayuda" component={Ayuda} /> 
+            <Route path="/roadmap" component={Roadmap} /> 
             <Route path="/" component={Introduccion} />
 
           </Switch>
