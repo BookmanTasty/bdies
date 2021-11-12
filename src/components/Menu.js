@@ -22,16 +22,16 @@ const Menu = () => {
                     <h5>Libros escolares</h5>
                 </li>
                 <li>
-                    <NavLink to="/rer" exact>Primaria</NavLink>
+                    <NavLink to="/escolares/portada" exact>Primaria</NavLink>
                 </li>
                 <li>
-                    <NavLink to="" exact>Secundaria</NavLink>
+                    <NavLink to="/escolares/portada" exact>Secundaria</NavLink>
                 </li>
                 <li>
-                    <NavLink to=""exact>Medio Superior</NavLink>
+                    <NavLink to="/escolares/portada"exact>Medio Superior</NavLink>
                 </li>
                 <li>
-                    <NavLink to=""exact>Superior</NavLink>
+                    <NavLink to="/escolares/portada"exact>Superior</NavLink>
                 </li>
                 <li>
                     <h5>Ayuda</h5>
