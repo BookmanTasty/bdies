@@ -13,9 +13,9 @@ export default function Libro(props) {
     const [list, setList] = useState([]);
     const location = useLocation();
     const idlibro = location.pathname.substr(6);
-    const urlbase = "http://localhost:5000/libros/"
+    const urlbase = "https://api.bdies.ga/libros/"
     const urllibro = urlbase + idlibro;
-    const urlvisitas = "http://localhost:5000/update/";
+    const urlvisitas = "https://api.bdies.ga/update/";
     let visitas;
 
     useEffect(() => {

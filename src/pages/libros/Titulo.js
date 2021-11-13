@@ -13,7 +13,7 @@
 
     useEffect(() => {
       axios({
-        url: "http://localhost:5000/libros",
+        url: "https://api.bdies.ga/libros",
       })
         .then((response) => {
           setList(response.data);

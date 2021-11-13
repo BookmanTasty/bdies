@@ -10,7 +10,7 @@ import Tokenomics from '../components/Tokenomics'
 
 export default  function Introduccion() {
     const [list, setList] = useState([]);
-    const urlbase = "http://localhost:5000/visitas/6186a62bf0058e3763961b80"
+    const urlbase = "https://api.bdies.ga/visitas/6186a62bf0058e3763961b80"
     let visitas;
 
     useEffect(() => {
